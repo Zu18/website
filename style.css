@@ -33,3 +33,79 @@ body {
     background-size: 100% 100%;
     background-image: url('images/generated-img.jpg');
 }
+
+/* Add the container for the cards  */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 50px;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: auto;
+}
+
+/* Add the flex items (the cards)*/
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 45%;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding-bottom: 0px;
+}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+}
+
+.active,
+.collapsible:hover {
+    opacity: 0.7;
+}
+
+.collapsible:after {
+    /* Unicode character for "plus" sign (+) */
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    /* Unicode character for "minus" sign (-) */
+    content: "\2212";
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.3;
+}
+
+img {
+    width: 100%;
+    height: 400px;
+}

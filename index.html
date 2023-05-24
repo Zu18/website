@@ -25,10 +25,158 @@
         </div>
     </div>
     <!--Container (About section)-->
+    
     <!--Container (Portfolio section)-->
+    <div class="flex-container">
+        <section class="card">
+            <img src="https://picsum.photos/id/379/600/400" alt="An empty highway.">
+            <div class="container">
+                <h2>Hobbies and Interests</h2>
+                <p><a href="https://github.com/Zu18/Hobby-interests">Source code on GitHub </a></p>
+                <button type="button" class="collapsible">Description</button>
+                <div class="content">
+                    <p>
+                        The page was built with HTML, styled with CSS and use a bit of
+                        JavaScript. During the work on this project, I learned:
+                    </p>
+                    <ol>
+                        <li> Deepened my knowledge about HTML/CSS.</li>
+                        <li>Learned how to alternate the display of one of two images by clicking the displayed image. I
+                            used JavaScript and DOM API features for this.</li>
+                        <li> Learned how to use JavaScript to generate the current date, and DOM manipulation to display
+                            it.</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <img src="https://picsum.photos/id/36/600/400" alt="A disassembled camera.">
+            <div class="container">
+                <h2>Gallery</h2>
+                <p><a href="https://github.com/Zu18/Gallery">Source code on GitHub </a></p>
+                <button type="button" class="collapsible">Description</button>
+                <div class="content">
+                    <p>
+                        HTML and CSS responsive image gallery with description part about the projects. The HTML page
+                        contains a JavaScript function. During the work on this project, I learned:
+                    </p>
+                    <ol>
+                        <li> Basics about Flexbox and its properties.</li>
+                        <li>General Semantic Elements in HTML.</li>
+                        <li> How to resize elements based on screen width.</li>
+                        <li> How to adapt the layout of the gallery for mobile devices.</li>
+                        <li>How to build a clickable button that opens and closes the description text.</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <img src="https://picsum.photos/id/180/600/400" alt="Laptop and notebook on the table">
+            <div class="container">
+                <h2>Project 3</h2>
+                <p>
+                    short info about project
+                </p>
+                <button type="button" class="collapsible">Description</button>
+                <div class="content">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur gravida porta tortor, eget
+                        maximus tellus mollis ac. Ut ullamcorper orci vel molestie porta. Nullam viverra dapibus nunc,
+                        eu
+                        egestas ligula tristique hendrerit. Nullam faucibus mi sit amet nulla dapibus vestibulum.
+                        Phasellus
+                        tortor quam, luctus id sollicitudin vel, gravida a quam. Quisque dignissim augue ac euismod
+                        tristique. Etiam vestibulum urna vel tellus sollicitudin, et semper quam finibus. Etiam sed
+                        vulputate nisi, quis condimentum massa. Donec non iaculis libero. Phasellus vel ex facilisis,
+                        blandit velit quis, bibendum turpis.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <img src="https://picsum.photos/id/8/600/400" alt="Laptop and notebook on the table">
+            <div class="container">
+                <h2>Project 4</h2>
+                <p>
+                    short info about project
+                </p>
+                <button type="button" class="collapsible">Description</button>
+                <div class="content">
+                    <p>
+                        Donec vulputate tristique commodo. In rutrum dolor eros, at sollicitudin tortor tincidunt
+                        blandit.
+                        Etiam eget mattis eros. Sed eget gravida nulla. Nullam ut cursus tellus. Vivamus at velit
+                        gravida,
+                        elementum justo non, eleifend sapien. Maecenas mollis tincidunt tristique. Vivamus condimentum
+                        malesuada justo quis mattis. Integer eleifend, diam tincidunt tincidunt auctor, lacus felis
+                        finibus
+                        urna, non accumsan ex lacus gravida erat
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <img src="https://picsum.photos/id/20/600/400" alt="Laptop and notebook on the table">
+            <div class="container">
+                <h2>Project 5</h2>
+                <p>
+                    short info about project
+                </p>
+                <button type="button" class="collapsible">Description</button>
+                <div class="content">
+                    <p>
+                        Aenean vehicula placerat accumsan. Pellentesque vestibulum nibh ac ipsum iaculis, et rhoncus
+                        risus
+                        convallis. Phasellus elit nibh, semper in pulvinar dapibus, elementum in turpis. Sed leo magna,
+                        convallis bibendum ullamcorper vitae, porttitor at nulla. Fusce vel ultricies nibh. Vivamus
+                        dignissim, elit vitae eleifend efficitur, risus leo dapibus ipsum, eu ullamcorper est metus id
+                        magna. Pellentesque ut libero neque. Curabitur tincidunt lorem in sem tempus, vel consequat diam
+                        vestibulum. Integer porta, neque non rutrum mollis, urna ligula finibus metus, quis egestas est
+                        lacus eget ex.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <img src="images/generated-img.jpg" alt="">
+            <div class="container">
+                <h2>Project 6</h2>
+                <p>
+                    Short info about project
+                </p>
+                <button type="button" class="collapsible">Description</button>
+                <div class="content">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
     <!--Container (Contact section)-->
     <h1>My website</h1>
     <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
     </script>
 </body>
 
