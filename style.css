@@ -34,6 +34,23 @@ body {
     background-image: url('images/generated-img.jpg');
 }
 
+.row {
+    display: flex;
+    background-color: aqua;
+  }
+ 
+ /* Create two equal columns that floats next to each other (home section)*/
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 /* Add the container for the cards  */
 .flex-container {
     display: flex;
@@ -43,6 +60,7 @@ body {
     flex-direction: row;
     align-items: flex-start;
     max-width: auto;
+    background-color: #04AA6D;
 }
 
 /* Add the flex items (the cards)*/
