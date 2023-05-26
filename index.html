@@ -12,13 +12,13 @@
 <body>
     <!--navbar on top -->
     <div class="topNavbar">
-        <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
-        <a href="#"><i class="fa fa-fw fa-user"></i>About me</a>
-        <a href="#"><i class="fa fa-fw fa-th"></i>My portfolio</a>
-        <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+        <a class="active" href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="#about"><i class="fa fa-fw fa-user"></i> About me</a>
+        <a href="#portfolio"><i class="fa fa-fw fa-th"></i> My portfolio</a>
+        <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
     </div>
     <!--Container (Home section-Image with logo text)-->
-    <div class="background-image">
+    <div id="home" class="background-image">
         <div style="text-align: center !important">
             <h1>Zukhra Galieva</h1>
             <h3>Software Developer</h3>
@@ -26,7 +26,7 @@
     </div>
     <!--Container (About section)-->
     <h1> About me </h1>
-    <div class="row">
+    <div id="about" class="row">
         <div class="column" style="align-self: center">
             <img id="img-1" src="https://picsum.photos/id/24/600/300" alt="The open book on the table.">
         </div>
@@ -44,7 +44,7 @@
     </div>
     <!--Container (Portfolio section)-->
     <h1> Portfolio </h1>
-    <div class="flex-container">
+    <div id="portfolio" class="flex-container">
         <section class="card">
             <img src="https://picsum.photos/id/379/600/400" alt="An empty highway.">
             <div class="container">
@@ -174,7 +174,7 @@
     </div>
     <!--Container (Contact section)-->
     <h1>Contact</h1>
-    <div>
+    <div id="contact">
         <ul>
             <li><i class="fa fa-map-marker"></i> London, UK</li>
             <li><i class="fa fa-fw fa-envelope"></i> Email</li>
