@@ -40,6 +40,8 @@ h1 {
     /* Position the navbar at the top of the page */
     width: 100%;
     /* Full width */
+    z-index: 1;
+    /* to cover background image*/
 }
 
 .topNavbar a {
@@ -62,10 +64,25 @@ h1 {
 }
 
 .background-image {
+    position: relative;
     background-attachment: scroll;
     min-height: 400px;
     background-size: 100% 100%;
     background-image: url('images/generated-img.jpg');
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #121111;
+    font-size: 24px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: red;
+    padding: 30px;
 }
 
 .row {
