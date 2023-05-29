@@ -34,7 +34,7 @@ h1 {
 
 .topNavbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: transparent;
     position: fixed;
     /* Set the navbar to fixed position */
     top: 0;
@@ -69,7 +69,7 @@ h1 {
     background-attachment: scroll;
     min-height: 400px;
     background-size: 100% 100%;
-    background-image: url('images/generated-img.jpg');
+    background-image: url('https://picsum.photos/id/786/1200/400');
 }
 
 .text {
@@ -184,7 +184,7 @@ img {
 .div1 {
     padding: 64px 16px 64px 16px;
     max-width: 980px;
-    margin: auto;
+    margin: auto;   /*To horizontally center a block element (like <div>)*/
     border: 3px solid #73AD21;
     text-align: justify;
 }
