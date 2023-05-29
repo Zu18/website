@@ -11,8 +11,8 @@
 
 <body>
     <!--navbar on top -->
-    <div class="topNavbar">
-        <a class="active" href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
+    <div class="topNavbar" id="myNavbar">
+        <a href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
         <a href="#about"><i class="fa fa-fw fa-user"></i> About me</a>
         <a href="#portfolio"><i class="fa fa-fw fa-th"></i> My portfolio</a>
         <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
@@ -25,7 +25,7 @@
         </div>
     </div>
     <!--Container (About section)-->
-    <div class="div1" align="center">
+    <div class="div1" align="center" id="about">
         <h1> About me </h1>
         <p>We have created a fictional "personal" website/blog. Lorem
             ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -40,7 +40,7 @@
             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
         </p>
-        <div id="about" class="row">
+        <div class="row">
             <div class="column" style="align-self: center">
                 <img id="img-1" src="https://picsum.photos/id/24/600/300" alt="The open book on the table.">
             </div>
@@ -216,6 +216,16 @@
                 }
             });
         }
+    </script>
+    <script>
+        window.addEventListener("scroll", function () {
+            var nav = document.querySelector("#myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                nav.classList.add("topNavbar-scrolled");
+            } else {
+                nav.classList.remove("topNavbar-scrolled");
+            }
+        });
     </script>
 </body>
 
