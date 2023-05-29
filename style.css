@@ -71,7 +71,7 @@ h1 {
     background-attachment: scroll;
     min-height: 400px;
     background-size: 100% 100%;
-    background-image: url('https://picsum.photos/id/786/1200/400');
+    background-image: url('https://picsum.photos/id/777/1200/400?grayscale');
 }
 
 .text {
