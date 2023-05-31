@@ -210,10 +210,16 @@ img {
 .padding-large {
     padding: 12px 24px !important;
 }
-.fa-wm {
-    width: 20px;
-    text-align: center;
-    margin-right: 16 !important;
-    background-color: rgb(243, 134, 243);
-
+.font-large {
+    font-size: 18px;
 }
+.fa-wm {
+    width: 25px;
+    text-align: center;
+    margin-right: 16px !important;
+    line-height: 2;
+    color: #777;
+}
+a {
+    color: #565555 /* Set the desired initial color */
+  }
