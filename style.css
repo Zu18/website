@@ -77,7 +77,18 @@ h1 {
     background-size: 100% 100%;
     background-image: url('https://picsum.photos/id/777/1200/400?grayscale');
 }
-
+.background-image-2 {
+    position: relative;
+    min-height: 400px;
+    background-size: cover;
+    background-image: url('https://picsum.photos/id/119/1400/400');
+}
+.background-image-3 {
+    position: relative;
+    min-height: 400px;
+    background-size: 100% 100%;
+    background-image: url('https://picsum.photos/id/1062/1200/400?grayscale');
+}
 .text {
     position: absolute;
     top: 50%;
@@ -118,7 +129,6 @@ h1 {
     flex-direction: row;
     align-items: flex-start;
     max-width: auto;
-    background-color: #04AA6D;
 }
 
 /* Add the flex items (the cards)*/
@@ -191,7 +201,6 @@ img {
     max-width: 980px;
     margin: auto;
     /*To horizontally center a block element (like <div>)*/
-    border: 3px solid #73AD21;
     text-align: justify;
 }
 
