@@ -94,7 +94,6 @@ h1 {
 
 .row {
     display: flex;
-    background-color: aqua;
 }
 
 /* Create two equal columns that floats next to each other (home section)*/
@@ -199,6 +198,13 @@ img {
 #my-img {
     height: 280px;
     border-radius: 10px;
+}
+#img-contact {
+    width: 300px;
+    height: 160px;
+    border-radius: 10px;
+    float: right;
+    opacity: 0.7;
 }
 
 .padding-large {
