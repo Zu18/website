@@ -199,7 +199,7 @@ img {
 }
 
 .div1 {
-    padding: 50px 16px 50px 16px;
+    padding: 30px 16px 50px 16px;
     max-width: 980px;
     margin: auto;
     /*To horizontally center a block element (like <div>)*/
@@ -239,6 +239,23 @@ a {
     color: #565555
         /* Set the desired initial color */
 }
+footer {
+    background-color: #777;
+    text-align: center;
+    color: #fff;
+}
+.button {
+    border: none;
+    border-radius: 5px;
+    background-color:#ddd;
+    color:#555;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 2px 4px 2px;
+  }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media only screen and (max-width: 600px) {
