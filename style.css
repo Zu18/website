@@ -117,9 +117,7 @@ h1 {
 
 /* Create two equal columns that floats next to each other (home section)*/
 .column {
-    width: 47%;
-    background-color: aqua;
-    
+    width: 47%;  
 }
 
 /* Add the container for the cards  */
@@ -130,7 +128,6 @@ h1 {
     row-gap: 50px;
     flex-direction: row;
     align-items: flex-start;
-    max-width: auto;
 }
 
 /* Add the flex items (the cards)*/
@@ -220,7 +217,7 @@ img {
 }
 
 .padding-large {
-    padding: 12px 24px !important;
+    padding: 30px 10px 50px 10px!important;
 }
 
 .font-large {
