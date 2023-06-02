@@ -110,11 +110,16 @@ h1 {
 .row {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 20px;
 }
 
 /* Create two equal columns that floats next to each other (home section)*/
 .column {
-    width: 50%;
+    width: 47%;
+    background-color: aqua;
+    
 }
 
 /* Add the container for the cards  */
@@ -194,7 +199,7 @@ img {
 }
 
 .div1 {
-    padding: 64px 16px 64px 16px;
+    padding: 50px 16px 50px 16px;
     max-width: 980px;
     margin: auto;
     /*To horizontally center a block element (like <div>)*/
@@ -206,7 +211,7 @@ img {
     border-radius: 10px;
 }
 
-#img-contact {
+.img-contact {
     width: 300px;
     height: 160px;
     border-radius: 10px;
@@ -241,7 +246,8 @@ a {
         flex-direction: column;
     }
 
-    .card {
+    .card,
+    .column {
         width: 100%;
     }
 
@@ -249,10 +255,26 @@ a {
         height: auto;
     }
 
-    .background-image {
+    .background-image, .img-contact {
         max-width: 100%;
     }
-    .column {
-        width: 100%;
+    .div1 {
+        padding-top: 0px;
+    }
+    .img-contact {
+        /* to center an image */
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    .text {
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    .topNavbar a {
+        padding: 14px 8px 14px 4px;
+        font-size: 15px;
     }
 }
