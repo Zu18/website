@@ -68,13 +68,13 @@
     </div>
     <!--Container (Portfolio section-Image with logo text)-->
     <div id="home" class="background-image-2">
-        <div class="text">
+        <div class="text" id="portfolio">
             <h1>Portfolio</h1>
         </div>
     </div>
     <!--Container (Portfolio section)-->
     <h1>Some text here </h1>
-    <div id="portfolio" class="flex-container padding-large">
+    <div class="flex-container padding-large">
         <section class="card">
             <img src="https://picsum.photos/id/379/600/400" alt="An empty highway.">
             <div class="container">
@@ -109,10 +109,10 @@
                     </p>
                     <ol>
                         <li> Basics about Flexbox and its properties.</li>
-                        <li>General Semantic Elements in HTML.</li>
+                        <li> General Semantic Elements in HTML.</li>
                         <li> How to resize elements based on screen width.</li>
                         <li> How to adapt the layout of the gallery for mobile devices.</li>
-                        <li>How to build a clickable button that opens and closes the description text.</li>
+                        <li> How to build a clickable button that opens and closes the description text.</li>
                     </ol>
                 </div>
             </div>
@@ -120,7 +120,7 @@
         <section class="card">
             <img src="https://picsum.photos/id/180/600/400" alt="Laptop and notebook on the table">
             <div class="container">
-                <h2>Project 3</h2>
+                <h2>Movie Data</h2>
                 <p>
                     short info about project
                 </p>
@@ -143,22 +143,25 @@
         <section class="card">
             <img src="https://picsum.photos/id/8/600/400" alt="Laptop and notebook on the table">
             <div class="container">
-                <h2>Project 4</h2>
-                <p>
-                    short info about project
-                </p>
+                <h2>Memory Game</h2>
+                <p><a href="https://github.com/Zu18/Memory-Game">Source code on GitHub </a></p>
                 <button type="button" class="collapsible">Description</button>
                 <div class="content">
                     <p>
-                        Donec vulputate tristique commodo. In rutrum dolor eros, at sollicitudin tortor tincidunt
-                        blandit.
-                        Etiam eget mattis eros. Sed eget gravida nulla. Nullam ut cursus tellus. Vivamus at velit
-                        gravida,
-                        elementum justo non, eleifend sapien. Maecenas mollis tincidunt tristique. Vivamus condimentum
-                        malesuada justo quis mattis. Integer eleifend, diam tincidunt tincidunt auctor, lacus felis
-                        finibus
-                        urna, non accumsan ex lacus gravida erat
+                        Memory Game is a simple card game where you need to match pairs by turning over 2 cards at a
+                        time. To create this game I used vanilla(plain) JavaScript, HTML, and CSS. During the work on
+                        this project, I learned:  
                     </p>
+                    <ol>
+                        <li>Basics about Grid and its properties.</li>
+                        <li>How to display a particular piece of text with CSS and JavaScript by wrapping it in a span tag.</li>
+                        <li>How to make a close button using the symbol ( &times; ) as the X icon.</li>
+                        <li>Modal/pop-up windows and how to implement them.</li>
+                        <li>How to sets or return the text content of the specified node using textContent and innerHTML
+                            property (depending on tags presence).</li>
+                        <li>How to add the cards by using the appendChild() method.</li>
+                        <li>Basics about code refactoring and why it is so important to clean up your code.</li>
+                    </ol>
                 </div>
             </div>
         </section>
@@ -202,7 +205,7 @@
             </div>
         </section>
     </div>
-    <!--Container (Portfolio section-Image with logo text)-->
+    <!--Container (Contact section-Image with logo text)-->
     <div id="home" class="background-image-3">
         <div class="text">
             <h1>Contact</h1>
@@ -227,22 +230,6 @@
         </div>
     </div>
     <script src="my-script.js"></script>
-    <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
-
-        for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function () {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.maxHeight) {
-                    content.style.maxHeight = null;
-                } else {
-                    content.style.maxHeight = content.scrollHeight + "px";
-                }
-            });
-        }
-    </script>
 
 </body>
 

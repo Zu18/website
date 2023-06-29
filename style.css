@@ -73,9 +73,9 @@ h1 {
 
 .background-image {
     position: relative;
-    background-attachment: scroll;
     min-height: 400px;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
     background-image: url('https://picsum.photos/id/777/1200/400?grayscale');
 }
 
@@ -83,13 +83,15 @@ h1 {
     position: relative;
     min-height: 400px;
     background-size: cover;
+    background-position: left center; 
     background-image: url('https://picsum.photos/id/119/1400/400');
 }
 
 .background-image-3 {
     position: relative;
     min-height: 400px;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
     background-image: url('https://picsum.photos/id/1062/1200/400?grayscale');
 }
 
