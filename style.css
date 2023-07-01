@@ -76,7 +76,7 @@ h1 {
     min-height: 400px;
     background-size: cover;
     background-position: center;
-    background-image: url('https://picsum.photos/id/777/1200/400?grayscale');
+    background-image: url('images/back-ground-image-grayscale.jpg');
 }
 
 .background-image-2 {
@@ -84,7 +84,7 @@ h1 {
     min-height: 400px;
     background-size: cover;
     background-position: left center;
-    background-image: url('https://picsum.photos/id/119/1400/400');
+    background-image: url('images/background-image-2.jpg');
 }
 
 .background-image-3 {
@@ -92,7 +92,7 @@ h1 {
     min-height: 400px;
     background-size: cover;
     background-position: center;
-    background-image: url('https://picsum.photos/id/1062/1200/400?grayscale');
+    background-image: url('images/background-image-grayscale-3.jpg');
 }
 
 .text {
