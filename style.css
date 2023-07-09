@@ -206,8 +206,8 @@ img {
 }
 
 #my-img {
-    height: 280px;
     border-radius: 10px;
+    opacity: 0.9;
 }
 
 .img-contact {
