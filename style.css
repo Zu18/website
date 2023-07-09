@@ -36,7 +36,6 @@ h1 {
 }
 
 .topNavbar {
-    overflow: hidden;
     background-color: transparent;
     position: fixed;
     /* Set the navbar to fixed position */
@@ -76,22 +75,18 @@ h1 {
     min-height: 400px;
     background-size: cover;
     background-position: center;
+}
+
+.bi-1 {
     background-image: url('images/back-ground-image-grayscale.jpg');
 }
 
-.background-image-2 {
-    position: relative;
-    min-height: 400px;
-    background-size: cover;
+.bi-2 {
     background-position: left center;
     background-image: url('images/background-image-2.jpg');
 }
 
-.background-image-3 {
-    position: relative;
-    min-height: 400px;
-    background-size: cover;
-    background-position: center;
+.bi-3 {
     background-image: url('images/background-image-grayscale-3.jpg');
 }
 
@@ -156,7 +151,6 @@ h1 {
     width: 100%;
     border: none;
     text-align: left;
-    outline: none;
     font-size: 18px;
 }
 
@@ -222,10 +216,6 @@ img {
     padding: 30px 10px 50px 10px !important;
 }
 
-.font-large {
-    font-size: 18px;
-}
-
 .fa-wm {
     width: 25px;
     text-align: center;
@@ -249,7 +239,7 @@ footer {
     color: #fff;
 }
 
-.button {
+.button-1 {
     border: none;
     border-radius: 5px;
     background-color: #ddd;

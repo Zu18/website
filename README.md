@@ -1,5 +1,5 @@
 # My website
-HTML and CSS responsive website with information about me and my portfolio. The HTML page contains a JavaScript function. During the work on this project, I learned:
+The HTML and CSS responsive website with information about me and my portfolio. To build this website I used vanilla(plain) JavaScript, HTML, and CSS. During the work on this project, I learned:
 
 1. About the position property and how to position  an element at the page.
 2. How to use the z-index property to specify the stack order of an element.
